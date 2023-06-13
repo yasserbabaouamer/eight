@@ -1,0 +1,3 @@
+class indexStateHolder{
+    static arrDisabledButtons = [];
+}
