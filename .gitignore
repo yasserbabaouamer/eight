@@ -1,0 +1,4 @@
+assets\
+.env
+composer.phar
+vendor

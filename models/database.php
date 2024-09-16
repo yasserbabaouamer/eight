@@ -1,11 +1,11 @@
 <?php 
     //session_start();
-    include("Models/Meal.php");
-    include("Models/Review.php");
-    $db_server = "localhost";
-    $db_user = "root";
-    $db_pass = "yacer";
-    $db_name = "restaurant_db";
+    include("models/Meal.php");
+    include("models/Review.php");
+    $db_server = $_ENV['DB_HOST'];
+    $db_user = $_ENV['DB_USER'];
+    $db_pass = $_ENV['DB_PASSWORD'];
+    $db_name = $_ENV['DB_NAME'];
     $db = mysqli_connect($db_server,$db_user,$db_pass,$db_name);    
     
 

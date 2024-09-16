@@ -1,6 +1,6 @@
 <?php
 
-include("C:/xampp/htdocs/restaurantProject/Models/database.php");
+include("C:/xampp/htdocs/restaurantProject/models/database.php");
 
 if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST["date"]) && isset($_POST["startReserv"]) &&
     isset($_POST["endReserv"]) && isset($_POST["size"])){

@@ -1,5 +1,5 @@
 <?php
-    include("C:/xampp/htdocs/restaurantProject/Models/database.php");
+    include("models/database.php");
     ?>
 
 <!DOCTYPE html>

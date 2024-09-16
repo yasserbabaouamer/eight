@@ -1,6 +1,6 @@
 <?php 
     session_start(); 
-    include("C:/xampp/htdocs/restaurantProject/Models/database.php");
+    include("models/database.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

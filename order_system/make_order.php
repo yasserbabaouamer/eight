@@ -1,5 +1,5 @@
 <?php
-    include("C:/xampp/htdocs/restaurantProject/Models/database.php");
+    include("C:/xampp/htdocs/restaurantProject/models/database.php");
 
     if(isset($_POST["uid"]) && isset($_POST["date"])  && isset($_POST["total"]) 
     && isset($_POST["latitude"]) && isset($_POST["longitude"]) && isset($_POST["arrMeals"])){

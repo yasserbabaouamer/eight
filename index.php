@@ -1,6 +1,11 @@
 <?php
+    // Autoload Composer packages
+    require __DIR__ . '/vendor/autoload.php';
+    // Load the .env file
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->load();
     session_start();
-    include("C:/xampp/htdocs/restaurantProject/Models/database.php");
+    include("models/database.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
