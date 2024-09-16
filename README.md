@@ -48,7 +48,7 @@ figure 01: Home page
 :--:
 figure 02: Checkout page
 
-![order-confirmed](https://drive.usercontent.google.com/download?id=1zKu07q7vMbcMh1woOAfJddRr9RfRmGVg)
+![order-confirmed](https://drive.usercontent.google.com/download?id=19s76_22E052MH2Xmy70o0AvNaYpUW0OO)
 :--:
 figure 03: Order confirmed
 
